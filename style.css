@@ -1,0 +1,1052 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* navbar styles started */
+  
+  .navbar {
+    width: 1440px;
+    height: 92px;
+    padding: 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 6px rgba(157, 157, 157, 0.2);
+    position: fixed;
+    top: 0;
+    background: #fff;
+  }
+  
+  .navbar a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    width: 819px;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar ul li a {
+    padding: 12px;
+    margin-right: 18px;
+    font-size: 17px;
+    color: #101010;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #f3f5f8;
+    border-radius: 5px;
+  }
+  
+  .navbar .signUp-btn {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background-color: #53b7ed;
+    color: white;
+    font-weight: 500;
+    padding: 2px 2px 2px 20px;
+    text-decoration: none;
+    border-radius: 24px;
+  }
+  
+  .navbar .signUp-btn p {
+    padding-right: 8px;
+    font-size: 15px;
+  }
+  
+  .navbar .signUp-btn span {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  /* navbar style ended */
+  
+  /* paytm travel section started */
+  
+  .travel-section {
+    margin-top: 92px;
+    padding: 50px 16px;
+    padding-bottom: 10px;
+    background-color: #e4f4fc;
+  }
+  
+  .travel-nav {
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .paytmTravelIcon {
+    padding-bottom: 8px;
+  }
+  
+  .travel-nav .travel-links {
+    display: flex;
+  }
+  
+  .travel-nav .travel-links a {
+    margin-right: 40px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+  }
+  
+  .travel-links a:first-child {
+    border-bottom: 2px solid #53b8ec;
+  }
+  
+  .flight-search-container {
+    width: 1230px;
+    height: 226px;
+    margin-top: 10px;
+    padding: 24px 36px;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    border: 1px solid #d3d3d3;
+  }
+  
+  .flight-search-container div ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 24px;
+  }
+  
+  .flight-search-container div ul li {
+    margin-right: 26px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .flight-search-container div ul li label {
+    font-weight: 500;
+  }
+  
+  .custom-radio {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 2px solid gray;
+    appearance: none;
+  }
+  
+  .custom-radio:checked {
+    width: 12px;
+    height: 12px;
+    border: none;
+    background-color: #00b9f5;
+    outline: 2px solid #00b9f5;
+    outline-offset: 2px;
+  }
+  
+  .travel-info-container {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+  }
+  
+  .travel-info-block {
+    display: inline;
+  }
+  
+  .travel-info-block p:first-child {
+    font-size: 12px;
+    color: #878787;
+    font-weight: 300;
+  }
+  
+  .travel-info-block p {
+    color: #3f3f3f;
+    font-size: 12px;
+  }
+  
+  .travel-info-block h3 {
+    padding: 4px 0px;
+    font-weight: 500;
+  }
+  
+  .travel-info-block .line {
+    margin-top: 10px;
+    height: 1px;
+    width: 200px;
+    background: #efefef;
+  }
+  
+  .travel-info-block:nth-child(4) .line {
+    width: 100px;
+  }
+  
+  .travel-info-block:nth-child(5) {
+    height: 46.5px;
+  }
+  
+  .travel-info-block:nth-child(5) h3 {
+    color: #00baf2;
+  }
+  
+  .travel-info-block:nth-child(5) .line {
+    width: 124.5px;
+  }
+  
+  .travel-info-block:nth-child(6) .line {
+    width: 156px;
+  }
+  
+  .flight-search-container .travel-info-container button {
+    background-color: #00baf2;
+    padding: 0 24px;
+    width: 178px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .ticket-offers-container {
+    width: 1188px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px;
+    /* padding: 0 16px; */
+    overflow-y: auto;
+    margin-bottom: 80px;
+  }
+  
+  .ticket-offers-container img {
+    width: 398px;
+    height: 238px;
+    border-radius: 14px;
+    margin-right: 30px;
+  }
+  
+  .special-fares-container {
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+  }
+  .special-fares-container p {
+    font-size: 14px;
+    padding-right: 12px;
+    color: #7d7d7d;
+  }
+  
+  .special-fares-container button {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 7px 12.5px;
+    margin-right: 8px;
+    border-radius: 40px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    color: #868686;
+  }
+  
+  /* paytm travel section ended */
+  
+  /* Recharge and pay bills section started */
+  
+  .recharge-section {
+    height: 382px;
+    background-color: #00baf2;
+    padding: 65px 90px;
+  }
+  
+  .recharge-section h2 {
+    font-size: 36px;
+    color: white;
+  }
+  
+  .payment-services-container {
+    display: flex;
+    margin-top: 26px;
+  }
+  
+  .payment-service-card {
+    width: 153px;
+    height: 183px;
+    margin-right: 32px;
+    padding: 16px 11px 16px 16px;
+    color: #fff;
+  }
+  
+  .payment-service-card:hover {
+    background-color: #00afe3;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .payment-service-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 17px;
+  }
+  
+  .payment-service-card h3 {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .payment-service-card p {
+    margin-top: 2px;
+    font-size: 15px;
+    line-height: 160%;
+    font-weight: 600;
+  }
+  
+  .payment-service-card p span {
+    display: flex;
+  }
+  
+  .payment-service-card p span img {
+    width: 19px;
+    height: 19px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2px;
+  }
+  
+  /* Recharge and pay bills section ended */
+  
+  /* Download app section started */
+  .download-app {
+    width: 1260px;
+    display: flex;
+    padding: 128px 0 120px 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .left-content-block {
+    padding-right: 172px;
+  }
+  
+  .left-content-block img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 48px;
+  }
+  
+  .left-content-block h1 {
+    margin-bottom: 10px;
+    font-size: 54px;
+    line-height: 120%;
+    width: 650px;
+  }
+  
+  .left-content-block p {
+    font-size: 20px;
+    width: 461px;
+    line-height: 160%;
+    margin-bottom: 40px;
+  }
+  
+  .download-app-button {
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 0 24px;
+    border-radius: 50px;
+    border: none;
+    background: #000;
+    color: white;
+  }
+  
+  .download-app-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .download-app-button:hover span svg path {
+    fill: black;
+  }
+  
+  .download-app-button span svg {
+    margin-left: 10px;
+  }
+  
+  .download-app-button span svg path {
+    fill: white;
+  }
+  
+  .app-thumbnail {
+    width: 528px;
+  }
+  /* Download app section ended */
+  
+  /* Book & Buy on Paytm section started*/
+  
+  .booking-section {
+    height: 382px;
+    background-color: #0f4a8a;
+    padding: 65px 90px;
+  }
+  
+  .booking-section h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 24px;
+  }
+  
+  .booking-card-wrapper {
+    display: flex;
+  }
+  
+  .booking-card {
+    width: 152px;
+    height: 158px;
+    padding: 16px 11px 16px 16px;
+    margin-right: 32px;
+  }
+  
+  .booking-card:hover {
+    border-radius: 12px;
+    background-color: #0d3e80;
+  }
+  
+  .booking-card .icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 17px;
+  }
+  
+  .booking-card p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .booking-card p span {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    margin-top: 2px;
+  }
+  
+  .booking-card p span img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Book & Buy on Paytm section ended */
+  /* Paytm payment instruments section started */
+  
+  .payment-instruments-section {
+    background-color: #f5f7fa;
+    padding-top: 120px;
+  }
+  
+  .payment-instruments-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 1170px;
+    margin: 0 auto 35px;
+  }
+  
+  .payment-instruments-section .text-img-block {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    width: 1170px;
+    height: 627px;
+    padding: 80px 50px 80px 115px;
+    border-radius: 10px;
+  }
+  
+  .payment-instruments-section .text-img-block .text-content {
+    width: 452px;
+  }
+  
+  .payment-instruments-section .text-img-block .text-content div {
+    display: flex;
+    align-items: center;
+    width: 175px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  
+  .payment-instruments-section .text-img-block .text-content div img {
+    width: 89px;
+    height: 77px;
+    margin-right: 12px;
+  }
+  
+  .payment-instruments-section .text-img-block .text-content h1 {
+    margin-left: 0;
+    margin-top: 48px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  
+  .payment-instruments-section .text-img-block .text-content .description {
+    width: 432px;
+    font-size: 17px;
+    line-height: 160%;
+    margin: 24px 0 30px 0;
+  }
+  
+  .bank-offer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 48px auto 0;
+    padding-bottom: 130px;
+  }
+  
+  .bank-offer-card {
+    width: 561px;
+    height: 700px;
+    padding: 70px 64px 0px 64px;
+    background: #fff;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .bank-offer-card img:first-child {
+    width: 196px;
+    margin-top: 32px;
+  }
+  
+  .bank-offer-card h2 {
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  
+  .bank-offer-card .description p:first-child {
+    margin: 20px 0 6px;
+    font-size: 20px;
+    line-height: 160%;
+  }
+  
+  .bank-offer-card .description p:last-child {
+    width: 336px;
+    margin: 0 0 20px;
+    font-weight: 500;
+    color: #80818a;
+    font-size: 12px;
+    line-height: 160%;
+  }
+  
+  .bank-offer-card .description p:last-child span {
+    color: #00baf2;
+    font-weight: 700;
+  }
+  
+  .bank-offer-card img:last-child {
+    width: 463px;
+    margin-top: auto;
+  }
+  
+  /* Paytm payment instruments section ended */
+  
+  /* Insurance && invesment section started */
+  .insurance-section {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 80px 0;
+  }
+  
+  .investment-section {
+    height: 587px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 80px 135px;
+    flex-direction: row-reverse;
+    background: url("./assets/images/investment-section/investment-bg.svg");
+  }
+  
+  .insurance-section .text-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 48px;
+  }
+  
+  .investment-section .text-content h2 {
+    width: 390px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 48px;
+  }
+  
+  .insurance-section .text-content p,
+  .investment-section .text-content p {
+    width: 526px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 24px 0 30px;
+    line-height: 140%;
+  }
+  
+  .primary-btn {
+    height: 49px;
+    padding: 0px 25px;
+    background-color: #002970;
+    color: white;
+    border-radius: 28px;
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 17px;
+  }
+  
+  .primary-btn span img {
+    width: 21px;
+  }
+  
+  /* Insurance && investment section ended */
+  
+  /* financial service section startd */
+  .financial-service {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .text-img-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .financial-service h1 {
+    padding-top: 120px;
+    font-size: 48px;
+    margin-bottom: 35px;
+  }
+  
+  .financial-service .text-content h3 {
+    margin-top: 48px;
+    font-size: 40px;
+    width: 468px;
+  }
+  
+  .financial-service .text-content p {
+    padding-top: 32px;
+    width: 488px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    line-height: 140%;
+  }
+  /* financial service section ended */
+  
+  /* business service section started */
+  
+  .business-service-section {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 180px 0 48px;
+  }
+  
+  .business-service-section h1 {
+    font-size: 48px;
+    margin-bottom: 35px;
+  }
+  
+  .service-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+  }
+  
+  .business-service-section .service-card {
+    padding: 80px 0 80px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+  }
+  
+  .business-service-section .service-card .text-content h3 {
+    width: 390px;
+    font-weight: 700;
+    margin-top: 48px;
+    font-size: 36px;
+  }
+  
+  .business-service-section .service-card .text-content p {
+    width: 470px;
+    padding: 24px 0 30px;
+    font-size: 17px;
+    line-height: 160%;
+  }
+  
+  /* business service section ended */
+  
+  /* business tools section started */
+  
+  .business-tools-section {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 120px 0;
+  }
+  
+  .business-tools-section h1 {
+    width: 480px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 89px;
+  }
+  
+  .business-tools-section .tools-card-wrapper {
+    display: flex;
+    column-gap: 70px;
+  }
+  
+  .business-tools-section .tools-card {
+    width: 240px;
+  }
+  
+  .business-tools-section .tools-card h3 {
+    font-size: 26px;
+    padding: 40px 0 20px;
+    font-weight: 700;
+  }
+  
+  .business-tools-section .tools-card h3 span {
+    display: block;
+  }
+  
+  .business-tools-section .tools-card p {
+    margin: 20px 0 12px;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  
+  .business-tools-section .tools-card > span {
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  /* business tools section ended */
+  
+  /* description and card section started */
+  
+  .descriptionAndCards-section {
+    width: 1170px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+  }
+  
+  .descriptionAndCards-wrapper {
+    display: flex;
+    padding: 60px 0 60px 60px;
+  }
+  
+  .descriptionAndCards-wrapper .description-block {
+    margin-right: 40px;
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .descriptionAndCards-wrapper .description-block img {
+    width: 160px;
+  }
+  
+  .descriptionAndCards-wrapper .description-block p {
+    line-height: 150%;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .descriptionAndCards-wrapper .description-block span {
+    color: #00baf2;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper {
+    width: 870px;
+    height: 250px;
+    display: flex;
+    column-gap: 32px;
+    overflow: auto;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper .card {
+    width: 159px;
+    height: 240px;
+    padding: 5px 5px;
+    background: #4bcef5;
+    border-radius: 8px;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper .card img {
+    width: 148px;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper .card p {
+    width: 114px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 16px 0;
+    margin: 0 auto;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper .second-card {
+    width: 159px;
+    height: 240px;
+    padding: 30px 11px 11px 11px;
+    background: #4bcef5;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper .second-card img {
+    margin-bottom: 24px;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper .second-card p {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 140%;
+  }
+  
+  .descriptionAndCards-wrapper .cards-wrapper .second-card span {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  /* description and card section ended */
+  
+  /* footer started */
+  
+  footer {
+    background-color: #f5f7fa;
+    padding: 90px 0 140px 0;
+  }
+  
+  footer .container {
+    width: 1260px;
+    margin: 0 auto;
+  }
+  
+  .download-app-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .download-app-container .download-app-block {
+    display: flex;
+    column-gap: 14px;
+  }
+  
+  .download-app-container .download-app-block img {
+    cursor: pointer;
+  }
+  
+  .download-app-container .download-app-block p {
+    width: 220px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .download-app-container .social-icons-block {
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  .download-app-container .social-icons-block img {
+    cursor: pointer;
+    width: 25px;
+  }
+  
+  .download-app-container .social-icons-block img:last-child {
+    width: 12px;
+  }
+  
+  footer .container > .line {
+    height: 1px;
+    width: 100%;
+    background: #cccccc;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  footer .footer-links .link {
+    display: flex;
+    align-items: baseline;
+    column-gap: 8px;
+    padding: 15px 0;
+  }
+  
+  footer .footer-links .wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  footer .footer-links .link .line {
+    height: 1px;
+    width: 100%;
+    background: #cccccc;
+  }
+  
+  footer .footer-links .wrapper img {
+    cursor: pointer;
+  }
+  
+  footer .footer-links p {
+    color: #505050;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .blue-border {
+    height: 12px;
+    background-color: #00baf2;
+  }
+  
+  .dark-blue-border {
+    height: 12px;
+    background-color: #002970;
+  }
+  /*Media Queries*/
+  /* Base styles remain unchanged */
+
+/* Responsive styles for large screens (above 1440px) */
+@media screen and (min-width: 1440px) {
+  .navbar {
+    width: 100%;
+    padding: 0 10%;
+  }
+  .travel-nav, .flight-search-container, .payment-services-container {
+    max-width: 1400px;
+    margin: auto;
+  }
+}
+
+/* Responsive styles for tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .travel-section {
+    padding: 30px 5%;
+  }
+  .travel-nav, .flight-search-container {
+    width: 90%;
+    padding: 10px;
+  }
+  .payment-services-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .payment-service-card {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+  }
+  .download-app {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 5%;
+  }
+  .left-content-block {
+    padding-right: 0;
+  }
+  .booking-section img, .payment-service-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Responsive styles for mobile screens (up to 768px) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 5%;
+  }
+  .navbar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .signUp-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .travel-section, .flight-search-container {
+    width: 100%;
+    padding: 10px 5%;
+  }
+  .travel-nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .travel-links a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .payment-services-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .payment-service-card {
+    width: 100%;
+    padding: 15px;
+  }
+  .booking-section {
+    padding: 40px 5%;
+    text-align: center;
+  }
+  .booking-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .booking-card {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .booking-section img, .payment-service-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
